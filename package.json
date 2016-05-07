@@ -1,7 +1,7 @@
 {
-  "name": "island",
+  "name": "rk-radio",
   "version": "1.0.0",
-  "description": "岚岛网格",
+  "description": "手机版的 React Radio",
   "main": "index.js",
   "scripts": {
     "start": "webpack --config=./webpack.js --watch",
@@ -43,5 +43,13 @@
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-kumamon/RK-Radio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/react-kumamon/RK-Radio/issues"
+  },
+  "homepage": "https://github.com/react-kumamon/RK-Radio#readme"
 }
