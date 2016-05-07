@@ -1,11 +1,13 @@
 {
   "name": "rk-radio",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "description": "手机版的 React Radio",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "start": "webpack --config=./webpack.js --watch",
     "pack": "webpack --config=./webpack.js -p",
+    "compile": "babel src/ --out-dir lib/",
+    "prepublish": "npm run compile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

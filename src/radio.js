@@ -8,7 +8,7 @@ export default class RKRadio extends Component {
   }
   static propTypes = {
     prefixCls: PropTypes.string,
-    children: PropTypes.string.isRequired,
+    children: PropTypes.string,
     value: PropTypes.string.isRequired,
     checked: PropTypes.bool,
     disabled: PropTypes.bool,
@@ -26,7 +26,7 @@ export default class RKRadio extends Component {
     return (
       <label className={classString} style={style}>
         <Radio {...this.props} style={null} children={null} />
-        {children}
+        <span>{children}</span>
       </label>
     )
   }

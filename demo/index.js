@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
-
 import Radio from '../src/index'
+require('../assets/index.less')
 
 let Group = Radio.Group
 

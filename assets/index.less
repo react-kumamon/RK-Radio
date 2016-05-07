@@ -24,11 +24,16 @@
   line-height: 1;
   vertical-align: middle;
   cursor: pointer;
+
+  &:last-child{
+      margin-right: 0px
+  }
+
   &-inner {
     &:after {
       position: absolute;
-      width: 0.9rem;
-      height: 0.9rem;
+      width: 0.65rem;
+      height: 0.65rem;
       left: 3px;
       top: 3px;
       border-radius: @border-radius-base;

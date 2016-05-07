@@ -80,6 +80,7 @@ export default class RKGroup extends Component {
         if (!('key' in radio) && typeof radio.props.value === 'string') {
           keyProps.key = radio.props.value
         }
+
         return React.cloneElement(radio, {
           ...keyProps,
           ...radio.props,

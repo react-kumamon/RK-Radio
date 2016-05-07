@@ -1,6 +1,5 @@
-import AntRadio from './radio'
-import Group from './group'
-require('../assets/index.less')
+import RKRadio from './radio'
+import RKGroup from './group'
 
-AntRadio.Group = Group
-export default AntRadio
+RKRadio.Group = RKGroup
+export default RKRadio
