@@ -1,6 +1,6 @@
 {
   "name": "rk-radio",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "手机版的 React Radio",
   "main": "./lib/index.js",
   "scripts": {
